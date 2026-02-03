@@ -38,7 +38,8 @@ class PBKDF2 {
             $this->key_length, 
             true
         );
-        return $salt . '|' . base64_encode($hash);
+
+        return sprintf('%s|%s', $salt, base64_encode($hash));
     }
 
     public function verify(string $password, string $hash): bool {
