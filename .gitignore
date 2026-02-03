@@ -1,0 +1,22 @@
+# === Composer ===
+/vendor/
+composer.lock
+
+# === PHPUnit ===
+/.phpunit.result.cache
+/phpunit.xml.bak
+/.phpunit.cache/
+
+# === IDE & Editor ===
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Logs & temp ===
+*.log
+/tmp/

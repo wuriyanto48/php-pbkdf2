@@ -1,0 +1,22 @@
+{
+    "name": "wuriyanto/php-pbkdf2",
+    "autoload": {
+        "psr-4": {
+            "Wuriyanto\\PhpPbkdf2\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        "Wuriyanto\\PhpPbkdf2\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wuriyanto48",
+            "email": "wuriyanto48@yahoo.co.id"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    }
+}
