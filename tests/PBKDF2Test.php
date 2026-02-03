@@ -16,7 +16,6 @@ final class PBKDF2Test extends TestCase
         $password = 'secure_password';
 
         $hash = $pbkdf2->hash($password);
-        print($hash . PHP_EOL);
         
         $this->assertIsString($hash);
 
