@@ -1,5 +1,5 @@
 {
-    "name": "wuriyanto/php-pbkdf2",
+    "name": "wuriyanto48/php-pbkdf2",
     "autoload": {
         "psr-4": {
             "Wuriyanto\\PhpPbkdf2\\": "src/"

@@ -25,7 +25,7 @@ This library provides a clean API to:
 From Github
 
 ```shell
-composer require wuriyanto/php-pbkdf2:dev-master
+composer require wuriyanto48/php-pbkdf2:dev-master
 ```
 
 ### 🚀 Usage
