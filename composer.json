@@ -1,5 +1,8 @@
 {
     "name": "wuriyanto48/php-pbkdf2",
+    "description": "Simple and secure PBKDF2 password hashing library for PHP",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Wuriyanto\\PhpPbkdf2\\": "src/"
