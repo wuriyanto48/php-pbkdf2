@@ -20,10 +20,25 @@ This library provides a clean API to:
 
 ---
 
-### 📦 Installation
+### 📦 Installation From Github
 
-From Github
+Add Repository VCS to your `composer.json`'s project
 
+```json
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/wuriyanto48/php-pbkdf2"
+    }
+  ],
+  "require": {
+    "wuriyanto48/php-pbkdf2": "dev-master"
+  }
+}
+```
+
+Install
 ```shell
 composer require wuriyanto48/php-pbkdf2:dev-master
 ```
