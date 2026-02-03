@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Wuriyanto\PhpPbkdf2;
 
 class PBKDF2 {
