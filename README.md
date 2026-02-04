@@ -51,12 +51,16 @@ use Wuriyanto\PhpPbkdf2\PBKDF2;
 $pbkdf2 = PBKDF2::create('sha256', 16, 32, 1000);
 $password = 'myPasswordx726@';
 
-$hash = $pbkdf2->hash($password);
-print($hash . PHP_EOL); // In general, you will store it in a Database.
+try {
+    $hash = $pbkdf2->hash($password);
+    print($hash . PHP_EOL); // In general, you will store it in a Database.
 
-$isValid = $pbkdf2->verify($password, $hash);
+    $isValid = $pbkdf2->verify($password, $hash);
 
-print($isValid . PHP_EOL);
+    print($isValid . PHP_EOL);
+} catch (ValueError $e) {
+    print('Error: ' . $e->getMessage() . PHP_EOL);
+}
 ```
 
 ### 🧠 Hash Format
